@@ -11,14 +11,14 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'FBT: Bootstrap based Pages and Content',
+	'title' => 'FBT: Bootstrap based Pages and Content - Patched by Web Essentials',
 	'description' => 'A collection of Twitter Bootstrap oriented Fluid Content Elements and Pages written for EXT:fluidcontent and EXT:fluidpages using ViewHelpers from EXT:vhs',
 	'category' => 'misc',
 	'author' => 'Claus Due, Harry Glatz, Boris Schauer, Göran Bodenschatz',
     'author_email' => 'claus@namelesscoder.net, glatz@analog.de, me@bschauer.de, coding@46halbe.de',
     'author_company' => 'NamelessCoder, analog multimedia, bschauer',
 	'shy' => '',
-	'dependencies' => 'cms,flux,fluidcontent,fluidpages,vhs',
+	'dependencies' => 'flux,fluidcontent,fluidpages,vhs',
 	'conflicts' => '',
 	'priority' => '',
 	'module' => '',
@@ -32,12 +32,11 @@ $EM_CONF[$_EXTKEY] = array(
 	'version' => '2.0.0',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '6.1.00-6.99.99',
-			'cms' => '',
-			'flux' => '',
-			'fluidcontent' => '',
-			'fluidpages' => '',
-			'vhs' => '',
+			'typo3' => '7.6.0-7.6.99',
+			'flux' => '7.3.0',
+			'fluidcontent' => '4.4.0',
+			'fluidpages' => '3.4.0',
+			'vhs' => '2.4.0',
 		),
 		'conflicts' => array(
 		),

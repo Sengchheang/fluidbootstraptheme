@@ -18,9 +18,9 @@
   },
   "version": "2.0.0",
   "require": {
-    "fluidtypo3/flux": "dev-master",
-    "fluidtypo3/fluidcontent": "dev-master",
-    "fluidtypo3/fluidpages": "dev-master",
-    "fluidtypo3/vhs": "dev-master"
+    "typo3-ter/flux": "7.3.0",
+    "typo3-ter/fluidcontent": "4.4.0",
+    "typo3-ter/fluidpages": "3.4.0",
+    "typo3-ter/vhs": "2.4.0"
   }
 }
